@@ -12,3 +12,15 @@ print(names)
 ## name?, age?, engineer?, 
 profile = [ 'Shakib' , 27, True]
 print(profile)
+
+## 2-dimentional List are same as 2-D Array in JS
+persons = [
+    ['Nadim', 19, True],
+    ['Rijvi', 9, False],
+    ['Shakib', 1996, True]
+]
+print(persons)
+print(persons[2][0])
+for row in persons:
+    for item in row:
+        print(item)
