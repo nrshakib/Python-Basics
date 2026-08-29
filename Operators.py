@@ -10,7 +10,7 @@ else:
     print('He is not an all rounder')
 
 
-# Comparison Operator
+# Comparison Operator / Relational Operator
     
 name = 'Python'
 
