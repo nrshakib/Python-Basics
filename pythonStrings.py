@@ -12,7 +12,11 @@ print(line)
 name = "Jennifer"
 print(name)
 print(name[2])
+
+
 print(name[-4])
+
+# string slicing
 print(name[1:-1])
 
 # formatted strings
@@ -33,10 +37,16 @@ print(option02)
 # string methods
 
 file = 'Python Strings'
-print(len(file))
+print(len(file)) #length of string
 print(file.upper())
 print(file.lower())
 print(file.find('n'))
 print(file.find('Strings'))
 print(file.replace('Strings', 'String'))
 print('Python' in file)
+
+# format method
+
+name = 'Python'
+year = 2026
+print('Learning {} at {}'.format(name, year))
