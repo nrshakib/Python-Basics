@@ -20,7 +20,7 @@ persons = [
     ['Shakib', 1996, True]
 ]
 print(persons)
-print(persons[2][0])
+print(persons[1][0])
 for row in persons:
     for item in row:
         print(item)
@@ -55,3 +55,4 @@ print(newNumbers2)
 
 numbers2 = newNumbers1.copy()
 print(numbers2)
+
