@@ -56,7 +56,6 @@ print(p1.age)
 
 # It does not have to be named self, you can call it whatever you like, 
 # but it has to be the first parameter of any method in the class
-
 class Person:
    def __init__(self, name, age):
       self.name = name
@@ -67,6 +66,19 @@ class Person:
 
 person1 = Person("Loki", 30)
 person1.greet() # [ Output: Hello Loki ]
+
+# Class Properties
+
+# Properties are variables that belong to a class. They store data for each object created from the class.
+
+# Properties defined inside __init__() belong to each object (instance properties).
+# Properties defined outside methods belong to the class itself (class properties) and are shared by all objects
+
+
+# Class Methods
+
+# Methods are functions that belong to a class. They define the behavior of objects created from the class.
+# All methods must have self as the first parameter.
 
 class Student: 
     roll = ''
